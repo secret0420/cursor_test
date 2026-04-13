@@ -5,6 +5,8 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+*.pyc.*
+*.pyo
 *$py.class
 *.so
 *.pyd
@@ -39,6 +41,8 @@ htmlcov/
 # Misc temporary files (often created by apps/tests)
 *.log
 *.tmp
+tmp/
+temp/
 *.bak
 *.swp
 *~
